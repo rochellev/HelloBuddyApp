@@ -7,7 +7,7 @@ class Handler(webapp2.RequestHandler):
 		
 class MainPage(Handler):
 	def get(self):
-		self.write("hello buddy, this is pup")
+		self.write("hello buddy, this is Pup")
 
 app = webapp2.WSGIApplication([('/', MainPage),
 								], 
